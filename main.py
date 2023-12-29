@@ -17,6 +17,7 @@ def tint_image(src, color):
 def processImage():
     fp = int(input("Fotoğraf netliği seçin : 1 2 3 4 5 6 7: "))
     ff = int(input("Fatoş netliği seçin : 1 2 3: "))
+    ##TODO: add your own path !!!
     image_path = 'inception.png'
     image = Image.open(image_path)
 
